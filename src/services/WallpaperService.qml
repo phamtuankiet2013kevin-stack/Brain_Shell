@@ -35,6 +35,7 @@ QtObject {
 
     // Emitted when the full apply pipeline exits cleanly (exitCode === 0).
     signal wallpaperApplied(string path)
+    signal wallpaperApplyFailed(string path)
 
     // ── File listing ──────────────────────────────────────────────────────────
     function refresh() {
@@ -132,6 +133,8 @@ QtObject {
 
                 // Trigger border update after wallpaper application finishes
                 updateBorders()
+            } else {
+                root.wallpaperApplyFailed(root.currentWall)
             }
         }
     }

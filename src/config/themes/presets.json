@@ -1,0 +1,94 @@
+{
+  "themes": [
+    {
+      "id": "ocean-drift",
+      "name": "Ocean Drift",
+      "description": "Cool teal blues with soft contrast",
+      "wallpaper": "src/assets/wallpapers/ocean-drift.png",
+      "scheme": "content",
+      "colors": {
+        "background": "#1a282a",
+        "active":     "#a6d0f7",
+        "text":       "#cdd6f4",
+        "subtext":    "#94e2d5",
+        "border":     "#45475a",
+        "iconFont":   "#2f8d97"
+      }
+    },
+    {
+      "id": "midnight-rose",
+      "name": "Midnight Rose",
+      "description": "Deep plum tones with warm pink accents",
+      "wallpaper": "src/assets/wallpapers/midnight-rose.png",
+      "scheme": "tonal-spot",
+      "colors": {
+        "background": "#1e1e2e",
+        "active":     "#f5c2e7",
+        "text":       "#cdd6f4",
+        "subtext":    "#b4befe",
+        "border":     "#45475a",
+        "iconFont":   "#cba6f7"
+      }
+    },
+    {
+      "id": "forest-haze",
+      "name": "Forest Haze",
+      "description": "Muted greens on a dark earthy base",
+      "wallpaper": "src/assets/wallpapers/forest-haze.png",
+      "scheme": "neutral",
+      "colors": {
+        "background": "#1a1f1a",
+        "active":     "#a6e3a1",
+        "text":       "#cdd6f4",
+        "subtext":    "#94e2d5",
+        "border":     "#3b4252",
+        "iconFont":   "#7ec699"
+      }
+    },
+    {
+      "id": "sunset-ember",
+      "name": "Sunset Ember",
+      "description": "Warm amber highlights on charcoal",
+      "wallpaper": "src/assets/wallpapers/sunset-ember.png",
+      "scheme": "fidelity",
+      "colors": {
+        "background": "#1c1410",
+        "active":     "#fab387",
+        "text":       "#f5e0dc",
+        "subtext":    "#cba6f7",
+        "border":     "#585b70",
+        "iconFont":   "#f9e2af"
+      }
+    },
+    {
+      "id": "slate-minimal",
+      "name": "Slate Minimal",
+      "description": "Clean monochrome with crisp blue accents",
+      "wallpaper": "src/assets/wallpapers/slate-minimal.png",
+      "scheme": "monochrome",
+      "colors": {
+        "background": "#181825",
+        "active":     "#89b4fa",
+        "text":       "#cdd6f4",
+        "subtext":    "#a6adc8",
+        "border":     "#45475a",
+        "iconFont":   "#74c7ec"
+      }
+    },
+    {
+      "id": "lavender-dusk",
+      "name": "Lavender Dusk",
+      "description": "Soft purples with gentle contrast",
+      "wallpaper": "src/assets/wallpapers/lavender-dusk.png",
+      "scheme": "fruit-salad",
+      "colors": {
+        "background": "#191724",
+        "active":     "#c4a7e7",
+        "text":       "#e0def4",
+        "subtext":    "#908caa",
+        "border":     "#403d52",
+        "iconFont":   "#b4befe"
+      }
+    }
+  ]
+}
